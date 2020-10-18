@@ -4,14 +4,15 @@
    uno spazio e poi la parola più lunga.
  */
 
-var word = prompt('Inserire prima parola');
-var word1 = prompt('Inserire seconda parola');
+var word1 = prompt('Inserire parola 1');
+var word2 = prompt('Inserire parola 2');
 
-if (word.length > word1.length) {
-    console.log(word1 + ' ' + word);
+// Check
+if (word1.length > word2.length) {
+    console.log(word1 + ' ' + word2);
 }
-else if (word1.length > word.length) {
-    console.log(word + ' ' + word1);
+else if (word2.length > word1.length) {
+    console.log(word2 + ' ' + word1);
 }
 else {
     console.log('La lunghezza di entrambe le parole è uguale');
